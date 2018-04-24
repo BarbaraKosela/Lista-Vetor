@@ -204,6 +204,27 @@ namespace ConsoleApplication1
 
             Console.Clear();
 
+            double mediaPT = (notasPortugues[0] + notasPortugues[1] + notasPortugues[2] + notasPortugues[3])/4;
+            
+            double mediaMAT = (notasMatematica[0] + notasMatematica[1] + notasMatematica[2] + notasMatematica[3])/4;
+            
+            double mediaIng = (notasIngles[0] + notasIngles[1] + notasIngles[2] + notasIngles[3])/4;
+            
+            double mediaBio = (notasBiologia[0] + notasBiologia[1] + notasBiologia[2] + notasBiologia [3])/4;
+            
+            double mediaQui = (notasQuimica[0] + notasQuimica[1] + notasQuimica[2] + notasQuimica[3])/4;
+            
+            double mediaFis = (notasFisica[0] + notasFisica[1] + notasFisica[2] + notasFisica[3])/4;
+            
+            double mediaSoc = (notasSociologia[0] + notasSociologia[1] + notasSociologia[2] + notasSociologia[3])/4;
+            
+            double mediaFil = (notasFilosofia[0] + notasFilosofia[1] + notasFilosofia[2] + notasFilosofia[3])/4;
+            
+            double mediaGeo = (notasGeografia[0] + notasGeografia[1] + notasGeografia[2] + notasGeografia[3])/4;
+            
+            double mediaHis = (notasHistoria[0] + notasHistoria[1] + notasHistoria[2] + notasHistoria[3])/4;
+
+            double mediaEfi = (notasEdFisica[0] + notasEdFisica[1] + notasEdFisica[2] + notasEdFisica[3])/4;
         }
     }
 }
