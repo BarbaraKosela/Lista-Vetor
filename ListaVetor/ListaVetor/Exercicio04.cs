@@ -10,12 +10,12 @@ namespace ConsoleApplication1
         public Exercicio04()
         {
 
-            
+            string[] diciplina = new string[1];
             double[] nota = new double[4];
 
 
             Console.WriteLine("Nome da disciplina: ");
-            string diciplina = Console.ReadLine();
+            diciplina[0] = Console.ReadLine();
 
             Console.WriteLine("\nNome: ");
             string nome = Console.ReadLine();

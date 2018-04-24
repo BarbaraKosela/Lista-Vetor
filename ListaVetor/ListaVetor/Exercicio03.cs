@@ -46,6 +46,16 @@ namespace ConsoleApplication1
             nomeProduto[6] = Console.ReadLine();
             Console.WriteLine("Preço: ");
             preco[6] = Convert.ToInt32(Console.ReadLine());
+
+            Console.Clear();
+
+            Console.WriteLine("O primeiro produto é {0} com o preço de: {1}", nomeProduto[0], preco[0]);
+            Console.WriteLine("\nO segundo produto é {0} com o preço de: {1}", nomeProduto[1], preco[1]);
+            Console.WriteLine("\nO terceiro produto é {0} com o preço de: {1}", nomeProduto[2], preco[2]);
+            Console.WriteLine("\nO quarto produto é {0} com o preço de: {1}", nomeProduto[3], preco[3]);
+            Console.WriteLine("\nO quinto produto é {0} com o preço de: {1}", nomeProduto[4], preco[4]);
+            Console.WriteLine("\nO sexto produto é {0} com o preço de: {1}", nomeProduto[5], preco[5]);
+            Console.WriteLine("\nO sétimo produto é {0} com o preço de: {1}", nomeProduto[6], preco[6]);
         }
     }
 }
