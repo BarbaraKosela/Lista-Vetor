@@ -17,7 +17,7 @@ namespace ConsoleApplication1
             Console.WriteLine("Nome 2: ");
             nomes[1] = Console.ReadLine();
 
-            Console.WriteLine("Nome 3 : ");
+            Console.WriteLine("Nome 3: ");
             nomes[2] = Console.ReadLine();
 
             Console.WriteLine("Nome 4: ");

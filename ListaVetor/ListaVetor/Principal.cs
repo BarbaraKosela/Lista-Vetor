@@ -12,7 +12,9 @@ namespace ConsoleApplication1
         {
 
             // new Exercicio01();
-            new Exercicio02();
+            // new Exercicio02();
+            // new Exercicio03();
+            new Exercicio04();
         }
     }
 }
