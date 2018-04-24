@@ -10,7 +10,8 @@ namespace ConsoleApplication1
         public Exercicio06()
         {
             int[] idade = new int[9];
-            int maiorIdade = 0;
+            int maiorIdade = int.MinValue;
+            int maiorIdadeN = 0;
 
             Console.WriteLine("Idade 1: ");
             idade[0] = Convert.ToInt32(Console.ReadLine());
@@ -39,60 +40,54 @@ namespace ConsoleApplication1
             Console.WriteLine("Idade 9: ");
             idade[8] = Convert.ToInt32(Console.ReadLine());
 
-            if ((idade[0] > idade[1])&&(idade[0] > idade[2])&&(idade[0] > idade[3])&&(idade[0] > idade[4])&&(idade[0] > idade[5])&&(idade[0] > 
-                idade[6])&&(idade[0] > idade[7])&&(idade[0] > idade[8]))
+            if (idade[0] > maiorIdade)
             {
-                Console.WriteLine("Maior idade: " + idade[0]);
+                maiorIdade = idade[0];
+                idade[0] = maiorIdadeN;
             }
 
-            if ((idade[1] > idade[0]) && (idade[1] > idade[2]) && (idade[1] > idade[3]) && (idade[1] > idade[4]) && (idade[1] > idade[5]) && (idade[1] >
-                idade[6]) && (idade[1] > idade[7]) && (idade[1] > idade[8]))
+            if (idade[1] > maiorIdade)
             {
-                Console.WriteLine("Maior idade: " + idade[1]);
+                maiorIdade = idade[1];
+                idade[1] = maiorIdadeN;
+            }
+            if (idade[2] > maiorIdade)
+            {
+                maiorIdade = idade[2];
+                idade[2] = maiorIdadeN;
+            }
+            if (idade[3] > maiorIdade)
+            {
+                maiorIdade = idade[3];
+                idade[3] = maiorIdadeN;
+            }
+            if (idade[4] > maiorIdade)
+            {
+                maiorIdade = idade[4];
+                idade[4] = maiorIdadeN;
+            }
+            if (idade[5] > maiorIdade)
+            {
+                maiorIdade = idade[5];
+                idade[5] = maiorIdadeN;
+            }
+            if (idade[6] > maiorIdade)
+            {
+                maiorIdade = idade[6];
+                idade[6] = maiorIdadeN;
+            }
+            if (idade[7] > maiorIdade)
+            {
+                maiorIdade = idade[7];
+                idade[7] = maiorIdadeN;
+            }
+            if (idade[8] > maiorIdade)
+            {
+                maiorIdade = idade[8];
+                idade[8] = maiorIdadeN;
             }
 
-            if ((idade[2] > idade[1]) && (idade[2] > idade[0]) && (idade[2] > idade[3]) && (idade[2] > idade[4]) && (idade[2] > idade[5]) && (idade[2] >
-                idade[6]) && (idade[2] > idade[7]) && (idade[2] > idade[8]))
-            {
-                Console.WriteLine("Maior idade: " + idade[2]);
-            }
-
-            if ((idade[3] > idade[1]) && (idade[3] > idade[2]) && (idade[3] > idade[0]) && (idade[3] > idade[4]) && (idade[3] > idade[5]) && (idade[3] >
-                idade[6]) && (idade[3] > idade[7]) && (idade[3] > idade[8]))
-            {
-                Console.WriteLine("Maior idade: " + idade[3]);
-            }
-
-            if ((idade[4] > idade[1]) && (idade[4] > idade[2]) && (idade[4] > idade[3]) && (idade[4] > idade[0]) && (idade[4] > idade[5]) && (idade[4] >
-                idade[6]) && (idade[4] > idade[7]) && (idade[4] > idade[8]))
-            {
-                Console.WriteLine("Maior idade: " + idade[4]);
-            }
-
-            if ((idade[5] > idade[1]) && (idade[5] > idade[2]) && (idade[5] > idade[3]) && (idade[5] > idade[4]) && (idade[5] > idade[0]) && (idade[5] >
-                idade[6]) && (idade[5] > idade[7]) && (idade[5] > idade[8]))
-            {
-                Console.WriteLine("Maior idade: " + idade[5]);
-            }
-
-            if ((idade[6] > idade[1]) && (idade[6] > idade[2]) && (idade[6] > idade[3]) && (idade[6] > idade[4]) && (idade[6] > idade[5]) && (idade[6] >
-                idade[0]) && (idade[6] > idade[7]) && (idade[6] > idade[8]))
-            {
-                Console.WriteLine("Maior idade: " + idade[6]);
-            }
-
-            if ((idade[7] > idade[1]) && (idade[7] > idade[2]) && (idade[7] > idade[3]) && (idade[7] > idade[4]) && (idade[7] > idade[5]) && (idade[7] >
-                idade[6]) && (idade[7] > idade[0]) && (idade[7] > idade[8]))
-            {
-                Console.WriteLine("Maior idade: " + idade[7]);
-            }
-
-            if ((idade[8] > idade[1]) && (idade[8] > idade[2]) && (idade[8] > idade[3]) && (idade[8] > idade[4]) && (idade[8] > idade[5]) && (idade[8] >
-                idade[6]) && (idade[8] > idade[7]))
-            {
-                Console.WriteLine("Maior idade: " + idade[8]);
-            }
-            
+            Console.WriteLine("Maior idade é: " + maiorIdade);
 
             
 
